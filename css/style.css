@@ -1,0 +1,71 @@
+/* --------------------
+header style
+------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+/* --------nav style----- */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+header{
+    height: 100vh;
+    background-image: url(../images/dark-header.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    height: 80px;
+    padding-top: 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+}
+nav ul .nav-items li{
+    margin-left: 35px;
+}
+nav ul .font-awesomes li{
+    margin-left: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.nav-items{
+    display: flex;
+}
+.font-awesomes{
+    display: flex;
+}
+/* header-style */
+
+h1{
+    font-size: 2.5em;
+    font-weight: 600;
+    line-height: 0.5;
+}
+p{
+    line-height: 2;
+    margin-top: 20px ;
+    margin-bottom: 40px;
+}
+.nft-head{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    margin: 10% 0 0 10%;
+    color: white;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    background-color: #ff6177;
+    padding: 15px 35px;
+    border-radius: 30px;
+    width: 8em;
+}
